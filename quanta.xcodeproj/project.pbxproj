@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75D7E6A1683862800EFC829 /* OBMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D7E691683862800EFC829 /* OBMusicPlayer.m */; };
+		F77C70551698B964006EFAA8 /* OBBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C70531698B964006EFAA8 /* OBBuilderViewController.m */; };
+		F77C70561698B964006EFAA8 /* OBBuilderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77C70541698B964006EFAA8 /* OBBuilderViewController.xib */; };
+		F77C70591698BB4E006EFAA8 /* OBBuilderToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C70581698BB4E006EFAA8 /* OBBuilderToolsView.m */; };
+		F77C705D1698CBB0006EFAA8 /* OBBuilderSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C705C1698CBB0006EFAA8 /* OBBuilderSizeView.m */; };
+		F77C70601698CEBA006EFAA8 /* OBBuilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C705F1698CEB9006EFAA8 /* OBBuilderView.m */; };
+		F7AC2E23163DA9CA0052BA4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E22163DA9CA0052BA4D /* UIKit.framework */; };
+		F7AC2E25163DA9CA0052BA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E24163DA9CA0052BA4D /* Foundation.framework */; };
+		F7AC2E27163DA9CA0052BA4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E26163DA9CA0052BA4D /* CoreGraphics.framework */; };
+		F7AC2E2D163DA9CA0052BA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E2B163DA9CA0052BA4D /* InfoPlist.strings */; };
+		F7AC2E2F163DA9CA0052BA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E2E163DA9CA0052BA4D /* main.m */; };
+		F7AC2E33163DA9CA0052BA4D /* OBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E32163DA9CA0052BA4D /* OBAppDelegate.m */; };
+		F7AC2E35163DA9CA0052BA4D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E34163DA9CA0052BA4D /* Default.png */; };
+		F7AC2E37163DA9CA0052BA4D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E36163DA9CA0052BA4D /* Default@2x.png */; };
+		F7AC2E39163DA9CA0052BA4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E38163DA9CA0052BA4D /* Default-568h@2x.png */; };
+		F7AC2E3C163DA9CA0052BA4D /* OBMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E3B163DA9CA0052BA4D /* OBMenuViewController.m */; };
+		F7AC2E3F163DA9CA0052BA4D /* OBMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E3D163DA9CA0052BA4D /* OBMenuViewController.xib */; };
+		F7AC2E4B163DAAAC0052BA4D /* OBMainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E47163DAAAC0052BA4D /* OBMainBackground.png */; };
+		F7AC2E4C163DAAAC0052BA4D /* OBMainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E48163DAAAC0052BA4D /* OBMainBackground@2x.png */; };
+		F7AC2E4D163DAAAC0052BA4D /* OBMusic0.aif in Resources */ = {isa = PBXBuildFile; fileRef = F7AC2E4A163DAAAC0052BA4D /* OBMusic0.aif */; };
+		F7AC2E4F163DAACE0052BA4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E4E163DAACE0052BA4D /* QuartzCore.framework */; };
+		F7AC2E51163DAAD20052BA4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E50163DAAD20052BA4D /* AudioToolbox.framework */; };
+		F7AC2E53163DAAD60052BA4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC2E52163DAAD60052BA4D /* AVFoundation.framework */; };
+		F7AC2E5B163DABBD0052BA4D /* OBBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E56163DABBC0052BA4D /* OBBubble.m */; };
+		F7AC2E5C163DABBD0052BA4D /* OBGameBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E58163DABBD0052BA4D /* OBGameBubble.m */; };
+		F7AC2E5D163DABBD0052BA4D /* OBMenuBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E5A163DABBD0052BA4D /* OBMenuBubble.m */; };
+		F7AC2E60163DAF3D0052BA4D /* OBMenuBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E5F163DAF3D0052BA4D /* OBMenuBackgroundView.m */; };
+		F7AC2E65163DB4E60052BA4D /* OBUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E64163DB4E60052BA4D /* OBUserPreferences.m */; };
+		F7BEAEFE16838A7F006F3B23 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BEAEFD16838A7F006F3B23 /* icon@2x.png */; };
+		F7BEAF0116838A8A006F3B23 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BEAF0016838A8A006F3B23 /* icon.png */; };
+		F7BEAF0A16839C3A006F3B23 /* OBArcadeLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0416839C3A006F3B23 /* OBArcadeLevelView.m */; };
+		F7BEAF0B16839C3A006F3B23 /* OBArcadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0616839C3A006F3B23 /* OBArcadeView.m */; };
+		F7BEAF0C16839C3A006F3B23 /* OBArcadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0816839C3A006F3B23 /* OBArcadeViewController.m */; };
+		F7BEAF0D16839C3A006F3B23 /* OBArcadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BEAF0916839C3A006F3B23 /* OBArcadeViewController.xib */; };
+		F7BEAF1016839CFA006F3B23 /* OBArcadeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0F16839CFA006F3B23 /* OBArcadeColors.m */; };
+		F7BEAF1316839DA8006F3B23 /* OBArcadeState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF1216839DA8006F3B23 /* OBArcadeState.m */; };
+		F7BEAF171683ADC0006F3B23 /* OBPointList.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF161683ADC0006F3B23 /* OBPointList.m */; };
+		F7E699891658D0EF004A2ED5 /* OBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E699881658D0EF004A2ED5 /* OBCell.m */; };
+		F7E6998D1658D160004A2ED5 /* OBGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6998C1658D160004A2ED5 /* OBGameCell.m */; };
+		F7E699901658D527004A2ED5 /* OBGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6998F1658D527004A2ED5 /* OBGrid.m */; };
+		F7E699931658D5CE004A2ED5 /* OBElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E699921658D5CE004A2ED5 /* OBElement.m */; };
+		F7F5AE111684F6CD00460872 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F5AE101684F6CD00460872 /* Default.png */; };
+		F7F5AE141684F6E100460872 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F5AE131684F6E000460872 /* Default@2x.png */; };
+		F7F5AE171684F7BA00460872 /* OBSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F5AE151684F7BA00460872 /* OBSplash.png */; };
+		F7F5AE181684F7BA00460872 /* OBSplash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F5AE161684F7BA00460872 /* OBSplash@2x.png */; };
+		F7F5AE3316853BEC00460872 /* OBTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5AE3216853BEB00460872 /* OBTunnel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F75D7E681683862800EFC829 /* OBMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBMusicPlayer.h; path = sound/OBMusicPlayer.h; sourceTree = "<group>"; };
+		F75D7E691683862800EFC829 /* OBMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBMusicPlayer.m; path = sound/OBMusicPlayer.m; sourceTree = "<group>"; };
+		F77C70521698B964006EFAA8 /* OBBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBuilderViewController.h; path = builder/OBBuilderViewController.h; sourceTree = "<group>"; };
+		F77C70531698B964006EFAA8 /* OBBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBBuilderViewController.m; path = builder/OBBuilderViewController.m; sourceTree = "<group>"; };
+		F77C70541698B964006EFAA8 /* OBBuilderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OBBuilderViewController.xib; path = builder/OBBuilderViewController.xib; sourceTree = "<group>"; };
+		F77C70571698BB4E006EFAA8 /* OBBuilderToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBuilderToolsView.h; path = builder/OBBuilderToolsView.h; sourceTree = "<group>"; };
+		F77C70581698BB4E006EFAA8 /* OBBuilderToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBBuilderToolsView.m; path = builder/OBBuilderToolsView.m; sourceTree = "<group>"; };
+		F77C705B1698CBAF006EFAA8 /* OBBuilderSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBuilderSizeView.h; path = builder/OBBuilderSizeView.h; sourceTree = "<group>"; };
+		F77C705C1698CBB0006EFAA8 /* OBBuilderSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBBuilderSizeView.m; path = builder/OBBuilderSizeView.m; sourceTree = "<group>"; };
+		F77C705E1698CEB9006EFAA8 /* OBBuilderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBuilderView.h; path = builder/OBBuilderView.h; sourceTree = "<group>"; };
+		F77C705F1698CEB9006EFAA8 /* OBBuilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBBuilderView.m; path = builder/OBBuilderView.m; sourceTree = "<group>"; };
+		F7AC2E1E163DA9CA0052BA4D /* quanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AC2E22163DA9CA0052BA4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7AC2E24163DA9CA0052BA4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7AC2E26163DA9CA0052BA4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7AC2E2A163DA9CA0052BA4D /* quanta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "quanta-Info.plist"; sourceTree = "<group>"; };
+		F7AC2E2C163DA9CA0052BA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7AC2E2E163DA9CA0052BA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7AC2E30163DA9CA0052BA4D /* quanta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quanta-Prefix.pch"; sourceTree = "<group>"; };
+		F7AC2E31163DA9CA0052BA4D /* OBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBAppDelegate.h; sourceTree = "<group>"; };
+		F7AC2E32163DA9CA0052BA4D /* OBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBAppDelegate.m; sourceTree = "<group>"; };
+		F7AC2E34163DA9CA0052BA4D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F7AC2E36163DA9CA0052BA4D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F7AC2E38163DA9CA0052BA4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F7AC2E3A163DA9CA0052BA4D /* OBMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBMenuViewController.h; sourceTree = "<group>"; };
+		F7AC2E3B163DA9CA0052BA4D /* OBMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBMenuViewController.m; sourceTree = "<group>"; };
+		F7AC2E3E163DA9CA0052BA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OBMenuViewController.xib; sourceTree = "<group>"; };
+		F7AC2E47163DAAAC0052BA4D /* OBMainBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OBMainBackground.png; sourceTree = "<group>"; };
+		F7AC2E48163DAAAC0052BA4D /* OBMainBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OBMainBackground@2x.png"; sourceTree = "<group>"; };
+		F7AC2E4A163DAAAC0052BA4D /* OBMusic0.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = OBMusic0.aif; sourceTree = "<group>"; };
+		F7AC2E4E163DAACE0052BA4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7AC2E50163DAAD20052BA4D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7AC2E52163DAAD60052BA4D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7AC2E55163DABBC0052BA4D /* OBBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBubble.h; path = bubble/OBBubble.h; sourceTree = "<group>"; };
+		F7AC2E56163DABBC0052BA4D /* OBBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBBubble.m; path = bubble/OBBubble.m; sourceTree = "<group>"; };
+		F7AC2E57163DABBC0052BA4D /* OBGameBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBGameBubble.h; path = bubble/OBGameBubble.h; sourceTree = "<group>"; };
+		F7AC2E58163DABBD0052BA4D /* OBGameBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBGameBubble.m; path = bubble/OBGameBubble.m; sourceTree = "<group>"; };
+		F7AC2E59163DABBD0052BA4D /* OBMenuBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBMenuBubble.h; path = bubble/OBMenuBubble.h; sourceTree = "<group>"; };
+		F7AC2E5A163DABBD0052BA4D /* OBMenuBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBMenuBubble.m; path = bubble/OBMenuBubble.m; sourceTree = "<group>"; };
+		F7AC2E5E163DAF3D0052BA4D /* OBMenuBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBMenuBackgroundView.h; sourceTree = "<group>"; };
+		F7AC2E5F163DAF3D0052BA4D /* OBMenuBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBMenuBackgroundView.m; sourceTree = "<group>"; };
+		F7AC2E62163DB4E60052BA4D /* OBPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBPreferences.h; sourceTree = "<group>"; };
+		F7AC2E63163DB4E60052BA4D /* OBUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBUserPreferences.h; sourceTree = "<group>"; };
+		F7AC2E64163DB4E60052BA4D /* OBUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBUserPreferences.m; sourceTree = "<group>"; };
+		F7BEAEFD16838A7F006F3B23 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F7BEAF0016838A8A006F3B23 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F7BEAF0316839C3A006F3B23 /* OBArcadeLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeLevelView.h; path = arcade/OBArcadeLevelView.h; sourceTree = "<group>"; };
+		F7BEAF0416839C3A006F3B23 /* OBArcadeLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeLevelView.m; path = arcade/OBArcadeLevelView.m; sourceTree = "<group>"; };
+		F7BEAF0516839C3A006F3B23 /* OBArcadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeView.h; path = arcade/OBArcadeView.h; sourceTree = "<group>"; };
+		F7BEAF0616839C3A006F3B23 /* OBArcadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeView.m; path = arcade/OBArcadeView.m; sourceTree = "<group>"; };
+		F7BEAF0716839C3A006F3B23 /* OBArcadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeViewController.h; path = arcade/OBArcadeViewController.h; sourceTree = "<group>"; };
+		F7BEAF0816839C3A006F3B23 /* OBArcadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeViewController.m; path = arcade/OBArcadeViewController.m; sourceTree = "<group>"; };
+		F7BEAF0916839C3A006F3B23 /* OBArcadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OBArcadeViewController.xib; path = arcade/OBArcadeViewController.xib; sourceTree = "<group>"; };
+		F7BEAF0E16839CFA006F3B23 /* OBArcadeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeColors.h; path = arcade/OBArcadeColors.h; sourceTree = "<group>"; };
+		F7BEAF0F16839CFA006F3B23 /* OBArcadeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeColors.m; path = arcade/OBArcadeColors.m; sourceTree = "<group>"; };
+		F7BEAF1116839DA8006F3B23 /* OBArcadeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeState.h; path = arcade/OBArcadeState.h; sourceTree = "<group>"; };
+		F7BEAF1216839DA8006F3B23 /* OBArcadeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeState.m; path = arcade/OBArcadeState.m; sourceTree = "<group>"; };
+		F7BEAF141683A098006F3B23 /* OBArcadeGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OBArcadeGen.h; path = arcade/OBArcadeGen.h; sourceTree = "<group>"; };
+		F7BEAF151683ADC0006F3B23 /* OBPointList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBPointList.h; path = grid/OBPointList.h; sourceTree = "<group>"; };
+		F7BEAF161683ADC0006F3B23 /* OBPointList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBPointList.m; path = grid/OBPointList.m; sourceTree = "<group>"; };
+		F7E699871658D0EF004A2ED5 /* OBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBCell.h; path = bubble/OBCell.h; sourceTree = "<group>"; };
+		F7E699881658D0EF004A2ED5 /* OBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBCell.m; path = bubble/OBCell.m; sourceTree = "<group>"; };
+		F7E6998B1658D160004A2ED5 /* OBGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBGameCell.h; path = bubble/OBGameCell.h; sourceTree = "<group>"; };
+		F7E6998C1658D160004A2ED5 /* OBGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBGameCell.m; path = bubble/OBGameCell.m; sourceTree = "<group>"; };
+		F7E6998E1658D527004A2ED5 /* OBGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBGrid.h; path = grid/OBGrid.h; sourceTree = "<group>"; };
+		F7E6998F1658D527004A2ED5 /* OBGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBGrid.m; path = grid/OBGrid.m; sourceTree = "<group>"; };
+		F7E699911658D5CE004A2ED5 /* OBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBElement.h; path = bubble/OBElement.h; sourceTree = "<group>"; };
+		F7E699921658D5CE004A2ED5 /* OBElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBElement.m; path = bubble/OBElement.m; sourceTree = "<group>"; };
+		F7F5AE101684F6CD00460872 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F7F5AE131684F6E000460872 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F7F5AE151684F7BA00460872 /* OBSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OBSplash.png; sourceTree = "<group>"; };
+		F7F5AE161684F7BA00460872 /* OBSplash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OBSplash@2x.png"; sourceTree = "<group>"; };
+		F7F5AE3116853BEB00460872 /* OBTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBTunnel.h; path = bubble/OBTunnel.h; sourceTree = "<group>"; };
+		F7F5AE3216853BEB00460872 /* OBTunnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBTunnel.m; path = bubble/OBTunnel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AC2E1B163DA9CA0052BA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC2E53163DAAD60052BA4D /* AVFoundation.framework in Frameworks */,
+				F7AC2E51163DAAD20052BA4D /* AudioToolbox.framework in Frameworks */,
+				F7AC2E4F163DAACE0052BA4D /* QuartzCore.framework in Frameworks */,
+				F7AC2E23163DA9CA0052BA4D /* UIKit.framework in Frameworks */,
+				F7AC2E25163DA9CA0052BA4D /* Foundation.framework in Frameworks */,
+				F7AC2E27163DA9CA0052BA4D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75D7E66168385FC00EFC829 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				F75D7E681683862800EFC829 /* OBMusicPlayer.h */,
+				F75D7E691683862800EFC829 /* OBMusicPlayer.m */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		F77C704B1698B8F5006EFAA8 /* builder */ = {
+			isa = PBXGroup;
+			children = (
+				F77C70521698B964006EFAA8 /* OBBuilderViewController.h */,
+				F77C70531698B964006EFAA8 /* OBBuilderViewController.m */,
+				F77C70541698B964006EFAA8 /* OBBuilderViewController.xib */,
+				F77C70571698BB4E006EFAA8 /* OBBuilderToolsView.h */,
+				F77C70581698BB4E006EFAA8 /* OBBuilderToolsView.m */,
+				F77C705B1698CBAF006EFAA8 /* OBBuilderSizeView.h */,
+				F77C705C1698CBB0006EFAA8 /* OBBuilderSizeView.m */,
+				F77C705E1698CEB9006EFAA8 /* OBBuilderView.h */,
+				F77C705F1698CEB9006EFAA8 /* OBBuilderView.m */,
+			);
+			name = builder;
+			sourceTree = "<group>";
+		};
+		F7AC2E13163DA9CA0052BA4D = {
+			isa = PBXGroup;
+			children = (
+				F7F5AE131684F6E000460872 /* Default@2x.png */,
+				F7F5AE101684F6CD00460872 /* Default.png */,
+				F7BEAF0016838A8A006F3B23 /* icon.png */,
+				F7BEAEFD16838A7F006F3B23 /* icon@2x.png */,
+				F7AC2E52163DAAD60052BA4D /* AVFoundation.framework */,
+				F7AC2E50163DAAD20052BA4D /* AudioToolbox.framework */,
+				F7AC2E4E163DAACE0052BA4D /* QuartzCore.framework */,
+				F7AC2E28163DA9CA0052BA4D /* quanta */,
+				F7AC2E21163DA9CA0052BA4D /* Frameworks */,
+				F7AC2E1F163DA9CA0052BA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AC2E1F163DA9CA0052BA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E1E163DA9CA0052BA4D /* quanta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AC2E21163DA9CA0052BA4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E22163DA9CA0052BA4D /* UIKit.framework */,
+				F7AC2E24163DA9CA0052BA4D /* Foundation.framework */,
+				F7AC2E26163DA9CA0052BA4D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7AC2E28163DA9CA0052BA4D /* quanta */ = {
+			isa = PBXGroup;
+			children = (
+				F7BEAF0216839C1C006F3B23 /* arcade */,
+				F77C704B1698B8F5006EFAA8 /* builder */,
+				F7AC2E54163DAB790052BA4D /* bubble */,
+				F7AC2E6F163DC1AF0052BA4D /* grid */,
+				F7AC2E61163DB4E60052BA4D /* preferences */,
+				F7AC2E45163DAAA00052BA4D /* resources */,
+				F75D7E66168385FC00EFC829 /* sound */,
+				F7AC2E31163DA9CA0052BA4D /* OBAppDelegate.h */,
+				F7AC2E32163DA9CA0052BA4D /* OBAppDelegate.m */,
+				F7AC2E5E163DAF3D0052BA4D /* OBMenuBackgroundView.h */,
+				F7AC2E5F163DAF3D0052BA4D /* OBMenuBackgroundView.m */,
+				F7AC2E3A163DA9CA0052BA4D /* OBMenuViewController.h */,
+				F7AC2E3B163DA9CA0052BA4D /* OBMenuViewController.m */,
+				F7AC2E3D163DA9CA0052BA4D /* OBMenuViewController.xib */,
+				F7AC2E29163DA9CA0052BA4D /* Supporting Files */,
+			);
+			path = quanta;
+			sourceTree = "<group>";
+		};
+		F7AC2E29163DA9CA0052BA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E2A163DA9CA0052BA4D /* quanta-Info.plist */,
+				F7AC2E2B163DA9CA0052BA4D /* InfoPlist.strings */,
+				F7AC2E2E163DA9CA0052BA4D /* main.m */,
+				F7AC2E30163DA9CA0052BA4D /* quanta-Prefix.pch */,
+				F7AC2E34163DA9CA0052BA4D /* Default.png */,
+				F7AC2E36163DA9CA0052BA4D /* Default@2x.png */,
+				F7AC2E38163DA9CA0052BA4D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AC2E45163DAAA00052BA4D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E46163DAAAC0052BA4D /* images */,
+				F7AC2E49163DAAAC0052BA4D /* sounds */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		F7AC2E46163DAAAC0052BA4D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5AE151684F7BA00460872 /* OBSplash.png */,
+				F7F5AE161684F7BA00460872 /* OBSplash@2x.png */,
+				F7AC2E47163DAAAC0052BA4D /* OBMainBackground.png */,
+				F7AC2E48163DAAAC0052BA4D /* OBMainBackground@2x.png */,
+			);
+			name = images;
+			path = resources/images;
+			sourceTree = "<group>";
+		};
+		F7AC2E49163DAAAC0052BA4D /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E4A163DAAAC0052BA4D /* OBMusic0.aif */,
+			);
+			name = sounds;
+			path = resources/sounds;
+			sourceTree = "<group>";
+		};
+		F7AC2E54163DAB790052BA4D /* bubble */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E55163DABBC0052BA4D /* OBBubble.h */,
+				F7AC2E56163DABBC0052BA4D /* OBBubble.m */,
+				F7E699871658D0EF004A2ED5 /* OBCell.h */,
+				F7E699881658D0EF004A2ED5 /* OBCell.m */,
+				F7E699911658D5CE004A2ED5 /* OBElement.h */,
+				F7E699921658D5CE004A2ED5 /* OBElement.m */,
+				F7AC2E57163DABBC0052BA4D /* OBGameBubble.h */,
+				F7AC2E58163DABBD0052BA4D /* OBGameBubble.m */,
+				F7E6998B1658D160004A2ED5 /* OBGameCell.h */,
+				F7E6998C1658D160004A2ED5 /* OBGameCell.m */,
+				F7AC2E59163DABBD0052BA4D /* OBMenuBubble.h */,
+				F7AC2E5A163DABBD0052BA4D /* OBMenuBubble.m */,
+				F7F5AE3116853BEB00460872 /* OBTunnel.h */,
+				F7F5AE3216853BEB00460872 /* OBTunnel.m */,
+			);
+			name = bubble;
+			sourceTree = "<group>";
+		};
+		F7AC2E61163DB4E60052BA4D /* preferences */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC2E62163DB4E60052BA4D /* OBPreferences.h */,
+				F7AC2E63163DB4E60052BA4D /* OBUserPreferences.h */,
+				F7AC2E64163DB4E60052BA4D /* OBUserPreferences.m */,
+			);
+			path = preferences;
+			sourceTree = "<group>";
+		};
+		F7AC2E6F163DC1AF0052BA4D /* grid */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6998E1658D527004A2ED5 /* OBGrid.h */,
+				F7E6998F1658D527004A2ED5 /* OBGrid.m */,
+				F7BEAF151683ADC0006F3B23 /* OBPointList.h */,
+				F7BEAF161683ADC0006F3B23 /* OBPointList.m */,
+			);
+			name = grid;
+			sourceTree = "<group>";
+		};
+		F7BEAF0216839C1C006F3B23 /* arcade */ = {
+			isa = PBXGroup;
+			children = (
+				F7BEAF0E16839CFA006F3B23 /* OBArcadeColors.h */,
+				F7BEAF0F16839CFA006F3B23 /* OBArcadeColors.m */,
+				F7BEAF141683A098006F3B23 /* OBArcadeGen.h */,
+				F7BEAF0316839C3A006F3B23 /* OBArcadeLevelView.h */,
+				F7BEAF0416839C3A006F3B23 /* OBArcadeLevelView.m */,
+				F7BEAF1116839DA8006F3B23 /* OBArcadeState.h */,
+				F7BEAF1216839DA8006F3B23 /* OBArcadeState.m */,
+				F7BEAF0516839C3A006F3B23 /* OBArcadeView.h */,
+				F7BEAF0616839C3A006F3B23 /* OBArcadeView.m */,
+				F7BEAF0716839C3A006F3B23 /* OBArcadeViewController.h */,
+				F7BEAF0816839C3A006F3B23 /* OBArcadeViewController.m */,
+				F7BEAF0916839C3A006F3B23 /* OBArcadeViewController.xib */,
+			);
+			name = arcade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AC2E1D163DA9CA0052BA4D /* quanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AC2E42163DA9CA0052BA4D /* Build configuration list for PBXNativeTarget "quanta" */;
+			buildPhases = (
+				F7AC2E1A163DA9CA0052BA4D /* Sources */,
+				F7AC2E1B163DA9CA0052BA4D /* Frameworks */,
+				F7AC2E1C163DA9CA0052BA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quanta;
+			productName = quanta;
+			productReference = F7AC2E1E163DA9CA0052BA4D /* quanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AC2E15163DA9CA0052BA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Orange Bytes";
+			};
+			buildConfigurationList = F7AC2E18163DA9CA0052BA4D /* Build configuration list for PBXProject "quanta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7AC2E13163DA9CA0052BA4D;
+			productRefGroup = F7AC2E1F163DA9CA0052BA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AC2E1D163DA9CA0052BA4D /* quanta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AC2E1C163DA9CA0052BA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC2E2D163DA9CA0052BA4D /* InfoPlist.strings in Resources */,
+				F7AC2E35163DA9CA0052BA4D /* Default.png in Resources */,
+				F7AC2E37163DA9CA0052BA4D /* Default@2x.png in Resources */,
+				F7AC2E39163DA9CA0052BA4D /* Default-568h@2x.png in Resources */,
+				F7AC2E3F163DA9CA0052BA4D /* OBMenuViewController.xib in Resources */,
+				F7AC2E4B163DAAAC0052BA4D /* OBMainBackground.png in Resources */,
+				F7AC2E4C163DAAAC0052BA4D /* OBMainBackground@2x.png in Resources */,
+				F7AC2E4D163DAAAC0052BA4D /* OBMusic0.aif in Resources */,
+				F7BEAEFE16838A7F006F3B23 /* icon@2x.png in Resources */,
+				F7BEAF0116838A8A006F3B23 /* icon.png in Resources */,
+				F7BEAF0D16839C3A006F3B23 /* OBArcadeViewController.xib in Resources */,
+				F7F5AE111684F6CD00460872 /* Default.png in Resources */,
+				F7F5AE141684F6E100460872 /* Default@2x.png in Resources */,
+				F7F5AE171684F7BA00460872 /* OBSplash.png in Resources */,
+				F7F5AE181684F7BA00460872 /* OBSplash@2x.png in Resources */,
+				F77C70561698B964006EFAA8 /* OBBuilderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AC2E1A163DA9CA0052BA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC2E2F163DA9CA0052BA4D /* main.m in Sources */,
+				F7AC2E33163DA9CA0052BA4D /* OBAppDelegate.m in Sources */,
+				F7AC2E3C163DA9CA0052BA4D /* OBMenuViewController.m in Sources */,
+				F7AC2E5B163DABBD0052BA4D /* OBBubble.m in Sources */,
+				F7AC2E5C163DABBD0052BA4D /* OBGameBubble.m in Sources */,
+				F7AC2E5D163DABBD0052BA4D /* OBMenuBubble.m in Sources */,
+				F7AC2E60163DAF3D0052BA4D /* OBMenuBackgroundView.m in Sources */,
+				F7AC2E65163DB4E60052BA4D /* OBUserPreferences.m in Sources */,
+				F7E699891658D0EF004A2ED5 /* OBCell.m in Sources */,
+				F7E6998D1658D160004A2ED5 /* OBGameCell.m in Sources */,
+				F7E699901658D527004A2ED5 /* OBGrid.m in Sources */,
+				F7E699931658D5CE004A2ED5 /* OBElement.m in Sources */,
+				F75D7E6A1683862800EFC829 /* OBMusicPlayer.m in Sources */,
+				F7BEAF0A16839C3A006F3B23 /* OBArcadeLevelView.m in Sources */,
+				F7BEAF0B16839C3A006F3B23 /* OBArcadeView.m in Sources */,
+				F7BEAF0C16839C3A006F3B23 /* OBArcadeViewController.m in Sources */,
+				F7BEAF1016839CFA006F3B23 /* OBArcadeColors.m in Sources */,
+				F7BEAF1316839DA8006F3B23 /* OBArcadeState.m in Sources */,
+				F7BEAF171683ADC0006F3B23 /* OBPointList.m in Sources */,
+				F7F5AE3316853BEC00460872 /* OBTunnel.m in Sources */,
+				F77C70551698B964006EFAA8 /* OBBuilderViewController.m in Sources */,
+				F77C70591698BB4E006EFAA8 /* OBBuilderToolsView.m in Sources */,
+				F77C705D1698CBB0006EFAA8 /* OBBuilderSizeView.m in Sources */,
+				F77C70601698CEBA006EFAA8 /* OBBuilderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7AC2E2B163DA9CA0052BA4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AC2E2C163DA9CA0052BA4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7AC2E3D163DA9CA0052BA4D /* OBMenuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AC2E3E163DA9CA0052BA4D /* en */,
+			);
+			name = OBMenuViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AC2E40163DA9CA0052BA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7AC2E41163DA9CA0052BA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AC2E43163DA9CA0052BA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quanta/quanta-Prefix.pch";
+				INFOPLIST_FILE = "quanta/quanta-Info.plist";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7AC2E44163DA9CA0052BA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quanta/quanta-Prefix.pch";
+				INFOPLIST_FILE = "quanta/quanta-Info.plist";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AC2E18163DA9CA0052BA4D /* Build configuration list for PBXProject "quanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC2E40163DA9CA0052BA4D /* Debug */,
+				F7AC2E41163DA9CA0052BA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AC2E42163DA9CA0052BA4D /* Build configuration list for PBXNativeTarget "quanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC2E43163DA9CA0052BA4D /* Debug */,
+				F7AC2E44163DA9CA0052BA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AC2E15163DA9CA0052BA4D /* Project object */;
+}
